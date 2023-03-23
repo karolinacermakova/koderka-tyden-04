@@ -20,3 +20,33 @@ nav {
 /* -------------------------------------------- */
 
 
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	display: flex;
+}
+
+ aside {
+	width: 40vh;
+	height: 60vh;
+	padding: 20px;
+ }
+
+ nav {
+	width: 40vh;
+	height: 60vh;
+	padding: 20px;
+ }
+
+ article {
+	flex-grow: 1;
+	padding: 20px;
+ }
+
+ header,
+ footer {
+	height: 20vh;
+ }
