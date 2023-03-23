@@ -19,4 +19,22 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.main {
+	display: flex;
+}
+ aside,
+ nav {
+	flex-basis: 20vw;
+	height: 50vh;
+	padding: 5px;
+ }
 
+ article {
+	flex-grow: 1;
+	padding: 5px;
+ }
+
+ header,
+ footer {
+	padding: 20px;
+ }

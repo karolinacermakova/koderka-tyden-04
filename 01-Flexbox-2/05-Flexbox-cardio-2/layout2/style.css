@@ -20,3 +20,35 @@ nav {
 /* -------------------------------------------- */
 
 
+.kontejner {
+	display: flex;
+}
+
+.right {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header,
+footer {
+	width: 100vw;
+	height: 20vh;
+}
+
+aside {
+	flex-grow: 1;
+	height: 50vh;
+}
+
+article {
+	flex-grow: 2;
+	height: 50vh;
+}
+
+
+nav {
+	width: 20vw;
+	height: 50vw;
+}
+
+
