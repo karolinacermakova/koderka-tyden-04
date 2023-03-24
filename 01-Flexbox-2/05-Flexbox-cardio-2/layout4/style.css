@@ -51,9 +51,11 @@ aside {
  header {
 	height: 20vh;
 	width: 80vw;
+	padding: 20px;
  }
 
  footer {
 	height: 20vh;
 	width: 60vw;
+	padding: 20px;
  }
